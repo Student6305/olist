@@ -1,0 +1,39 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local databases and database backups
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Raw and intermediate datasets
+data/
+*.csv
+*.xlsx
+*.xls
+*.zip
+
+# Generated outputs
+kpi_outputs/*.csv
+kpi_outputs/*.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
